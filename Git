@@ -1,7 +1,9 @@
-ngit clone https://github.com/LiliArrate/Ejercicio_1_IA.git
-cd Ejercicio_1_IA
-git checkout -b suma_numeros
+ngit clone https://github.com/LiliArrate/Ejercicio_1.git
+cd Ejercicio_1
+git checkout -b ejercicio-basico
 git add suma_numeros.pl
 git commit -m "Agregar ejercicios de suma de numeros"
-git push origin suma_numeros
-git checkout maste
+git push origin ejercicio-basico
+git checkout master
+git merge ejercicio-basico
+git push origin master
